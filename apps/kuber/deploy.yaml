@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: kuber-app
-        image: "mirror.gcr.io/bakavets/kuber:v1.0"
+        image: mirror.gcr.io/bakavets/kuber:v1.0
         ports:
         - containerPort: 8000
